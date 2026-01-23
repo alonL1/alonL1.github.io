@@ -18,8 +18,7 @@ title: Portfolio
     <p class="section-title">About Me</p>
     <p>I am an Informatics student at the University of Washington with a focus on
       full-stack development and machine learning. My technical work currently
-      revolves around building intelligent document generation systems for Propper AI
-      and developing AI-driven mediation platforms at Joze AI.
+      revolves around building intelligent document generation systems for Propper AI. I also have personal projects in software developmet, machine learning, prompt engineering, database management.
     </p>
   </div>
 </section>

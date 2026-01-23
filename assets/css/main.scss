@@ -29,6 +29,11 @@ body {
   min-height: 100vh;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 84px;
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -113,6 +118,7 @@ a {
 .section {
   display: grid;
   gap: 32px;
+  scroll-margin-top: 84px;
 }
 
 .section-title {
