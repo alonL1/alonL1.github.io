@@ -1,0 +1,31 @@
+- name: Bowling Tracker App
+  stack: React + Node.js
+  summary: A stats-focused web app for the two-handed bowling community that tracks games, compares series, and turns performance history into actionable trends.
+  highlights:
+    - Designed for cloud deployment with scalable APIs and a mobile-first UI.
+    - Future monetization path through premium analytics and community leaderboards.
+
+- name: Guess That Bit
+  stack: JavaScript + Web Audio
+  summary: A game where players guess video clips from short audio snippets, built to maximize replayability and quick social sharing.
+  highlights:
+    - Logic for random clip selection, timers, and streak-based scoring.
+    - Engagement loop tuned for low friction onboarding and fast rounds.
+
+- name: Campus Queue Optimizer
+  stack: Python + SQL
+  summary: A mock service that predicts peak dining hall times and recommends the shortest lines using historical patterns.
+  highlights:
+    - Forecasting model prototype with an emphasis on explainable outputs.
+
+- name: Study Sprint Planner
+  stack: Next.js + PostgreSQL
+  summary: A productivity tool that creates timed study sessions with goals, reminders, and progress snapshots.
+  highlights:
+    - Structured data model to track streaks, focus time, and goal completion.
+
+- name: Volunteer Match Hub
+  stack: Node.js + Salesforce
+  summary: A concept platform matching volunteers to local opportunities based on skills, availability, and causes.
+  highlights:
+    - Integrates a CRM workflow for nonprofit stakeholder collaboration.

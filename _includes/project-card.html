@@ -1,0 +1,14 @@
+<article class="card project-card">
+  <header class="card-header">
+    <h3>{{ include.project.name }}</h3>
+    <p class="chip">{{ include.project.stack }}</p>
+  </header>
+  <p class="card-summary">{{ include.project.summary }}</p>
+  {% if include.project.highlights %}
+  <ul class="card-list">
+    {% for item in include.project.highlights %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</article>

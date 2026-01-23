@@ -1,0 +1,7 @@
+- label: LinkedIn
+  url: "#"
+- label: GitHub
+  url: "#"
+- label: Download Resume
+  url: "#"
+  button: true
