@@ -5,21 +5,10 @@ title: Portfolio
 
 <section class="section hero container reveal" id="top">
   <div>
-    <p class="section-title">Informatics at UW</p>
-    <h1>Server-side builder crafting functional, impactful web experiences.</h1>
-    <p class="lead">I’m Alon Levy, an Informatics student at the University of Washington focused on dependable back-end systems, thoughtful product architecture, and clean user journeys.</p>
+    <p class="lead">I’m Alon Levy, an Informatics student at the University of Washington focused on dependable back-end systems, thoughtful product architecture, and machine learning.</p>
     <div class="stagger" style="display:flex; gap:16px; flex-wrap:wrap; margin-top:20px;">
       <a class="button" href="#projects">View Projects</a>
       <a class="button" style="background: var(--accent-2);" href="#contact">Contact Me</a>
-    </div>
-  </div>
-  <div class="hero-card">
-    <h3>Current Focus</h3>
-    <p class="lead">Building systems that stay stable under real-world use and scale gracefully.</p>
-    <div class="hero-metrics">
-      <div><span>Strengths</span> Debugging • API design • Data modeling</div>
-      <div><span>Domains</span> Web apps • Server-side • ML foundations</div>
-      <div><span>Workflow</span> Define → Build → Test → Refine</div>
     </div>
   </div>
 </section>
