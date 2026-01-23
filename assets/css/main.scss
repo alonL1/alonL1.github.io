@@ -21,7 +21,7 @@
 
 body {
   margin: 0;
-  font-family: "Newsreader", "Times New Roman", serif;
+  font-family: "Work Sans", "Segoe UI", sans-serif;
   color: var(--ink);
   background: radial-gradient(circle at 20% 20%, rgba(255, 107, 53, 0.12), transparent 45%),
     radial-gradient(circle at 80% 10%, rgba(42, 157, 143, 0.14), transparent 42%),
@@ -79,7 +79,7 @@ a {
 }
 
 .brand-link {
-  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: -0.01em;
@@ -93,7 +93,7 @@ a {
 .site-nav {
   display: flex;
   gap: 18px;
-  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
   font-size: 0.95rem;
 }
 
@@ -121,7 +121,7 @@ a {
 }
 
 .section-title {
-  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 0.75rem;
@@ -137,7 +137,7 @@ a {
 }
 
 .hero h1 {
-  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
   font-size: clamp(2.6rem, calc(3vw + 2rem), 4rem);
   line-height: 1.05;
   margin: 0 0 12px;
@@ -158,7 +158,7 @@ a {
 
 .hero-card h3 {
   margin-top: 0;
-  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
 }
 
 .hero-metrics {
@@ -175,7 +175,7 @@ a {
 }
 
 .hero-metrics span {
-  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
   font-weight: 600;
 }
 
@@ -187,7 +187,7 @@ a {
   border-radius: 999px;
   background: var(--accent);
   color: #fffaf3;
-  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
   font-weight: 600;
   box-shadow: 0 12px 24px rgba(255, 107, 53, 0.25);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -226,7 +226,7 @@ a {
 }
 
 .card-header h3 {
-  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
   margin: 0;
 }
 
@@ -236,7 +236,7 @@ a {
   padding: 4px 10px;
   border-radius: 999px;
   font-size: 0.75rem;
-  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
 }
 
 .card-summary {
@@ -268,7 +268,7 @@ a {
   border: 1px solid rgba(27, 27, 27, 0.1);
   background: rgba(255, 255, 255, 0.7);
   font-size: 0.85rem;
-  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
 }
 
 .contact-grid {
