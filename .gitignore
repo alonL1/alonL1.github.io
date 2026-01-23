@@ -1,0 +1,16 @@
+# Jekyll build output
+_site/
+
+# Metadata and caches
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ruby/Bundler files (if you use them later)
+vendor/
+.bundle/
+Gemfile.lock
