@@ -16,8 +16,11 @@ title: Portfolio
 <section class="section container reveal" id="about">
   <div>
     <p class="section-title">About Me</p>
-    <p>I’m an Informatics major at the University of Washington with a technical focus on server-side programming, web development, and machine learning. I’m drawn to the puzzle of debugging and the clarity that comes from clean, well-tested APIs. My approach to server-side development is methodical: I start with strong data models, design scalable interfaces, and validate edge cases early so the system stays reliable as features grow.</p>
-    <p>Outside the lab, I keep things balanced. I’m into bowling (always working on my two-handed technique), I ski when I can, and I spend a lot of time with my dog. These interests keep me grounded and curious, and they sharpen the collaboration and patience I bring to team projects.</p>
+    <p>I am an Informatics student at the University of Washington with a focus on
+      full-stack development and machine learning. My technical work currently
+      revolves around building intelligent document generation systems for Propper AI
+      and developing AI-driven mediation platforms at Joze AI.
+    </p>
   </div>
 </section>
 

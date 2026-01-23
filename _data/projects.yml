@@ -1,31 +1,40 @@
-- name: Bowling Tracker App
-  stack: React + Node.js
-  summary: A stats-focused web app for the two-handed bowling community that tracks games, compares series, and turns performance history into actionable trends.
+- name: Community Compass (UW Capstone)
+  stack: Not sure yet
+  summary: A centralized platform designed to provide the Seattle homeless community with real-time, accessible information on shelter availability and social services.
   highlights:
-    - Designed for cloud deployment with scalable APIs and a mobile-first UI.
-    - Future monetization path through premium analytics and community leaderboards.
+    - Architecting a responsive interface optimized for low-bandwidth mobile devices used in the field.
+    - Implementing a real-time data pipeline to aggregate and verify shelter capacity and entry requirements.
+- name: Bowling Tracker App
+  stack: React + Node.js + Computer Vision
+  summary: A high-performance tracking app for the bowling community, featuring automated data entry and conversational analytics.
+  highlights:
+    - AI-powered score scanning to extract frame data directly from photos.
+    - Interactive AI chat interface for natural language performance queries.
 
 - name: Guess That Bit
   stack: JavaScript + Web Audio
-  summary: A game where players guess video clips from short audio snippets, built to maximize replayability and quick social sharing.
+  summary: A game where players guess video clips from short audio snippets, built to maximize replay-ability and social sharing.
   highlights:
     - Logic for random clip selection, timers, and streak-based scoring.
-    - Engagement loop tuned for low friction onboarding and fast rounds.
+    - Engagement loop tuned for low-friction onboarding and fast rounds.
 
-- name: Campus Queue Optimizer
-  stack: Python + SQL
-  summary: A mock service that predicts peak dining hall times and recommends the shortest lines using historical patterns.
+- name: Propper AI - DocGen
+  stack: Node.js + Salesforce + AI
+  summary: Developing an intelligent document generation engine that integrates with Salesforce to automate complex agreement workflows.
   highlights:
-    - Forecasting model prototype with an emphasis on explainable outputs.
+    - Leveraging AI to analyze document structures and map Salesforce data to dynamic templates.
+    - Streamlining the end-to-end agreement lifecycle from data collection to execution.
 
-- name: Study Sprint Planner
-  stack: Next.js + PostgreSQL
-  summary: A productivity tool that creates timed study sessions with goals, reminders, and progress snapshots.
+- name: Joze AI - AI Mediator
+  stack: Next.js + LLMs
+  summary: Built a next-generation AI mediation platform designed to facilitate neutral, structured resolutions for interpersonal or professional disputes.
   highlights:
-    - Structured data model to track streaks, focus time, and goal completion.
+    - [Placeholder for Joze AI technical detail]
+    - [Placeholder for Joze AI outcome/feature]
 
-- name: Volunteer Match Hub
-  stack: Node.js + Salesforce
-  summary: A concept platform matching volunteers to local opportunities based on skills, availability, and causes.
+- name: Fantasy Football Predictions App
+  stack: [Stack TBD]
+  summary: A data-driven application providing projections and strategic insights for fantasy football managers.
   highlights:
-    - Integrates a CRM workflow for nonprofit stakeholder collaboration.
+    - [Placeholder for Fantasy Football feature]
+    - [Placeholder for Fantasy Football data source]
