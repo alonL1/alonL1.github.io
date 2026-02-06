@@ -169,7 +169,7 @@ a {
 .card-grid {
   display: grid;
   gap: 24px;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .card {
@@ -180,12 +180,34 @@ a {
   box-shadow: 0 14px 30px rgba(27, 27, 27, 0.08);
 }
 
+.project-card {
+  display: grid;
+  gap: 16px;
+}
+
+.project-visual {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(27, 27, 27, 0.08);
+  background: #fff;
+}
+
+.project-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .card-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
   margin-bottom: 12px;
+}
+
+.project-header {
+  align-items: flex-start;
 }
 
 .card-header h3 {
@@ -207,10 +229,47 @@ a {
   margin-top: 0;
 }
 
+.project-details {
+  display: grid;
+  gap: 12px;
+}
+
+.detail-block h4 {
+  margin: 0 0 6px;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+}
+
+.detail-block p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .card-list {
   padding-left: 18px;
   margin: 12px 0 0;
   color: var(--muted);
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.text-link {
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+  font-weight: 600;
+  color: var(--accent-2);
+  border-bottom: 1px solid rgba(42, 157, 143, 0.35);
+}
+
+.text-link:hover {
+  color: #1c6a60;
+  border-bottom-color: #1c6a60;
 }
 
 .skills-grid {
@@ -294,6 +353,12 @@ a {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (min-width: 900px) {
+  .project-details {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 

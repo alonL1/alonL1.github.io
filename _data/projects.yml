@@ -1,40 +1,107 @@
 - name: Community Compass (UW Capstone)
   stack: Not sure yet
   summary: A centralized platform designed to provide the Seattle homeless community with real-time, accessible information on shelter availability and social services.
-  highlights:
-    - Architecting a responsive interface optimized for low-bandwidth mobile devices used in the field.
-    - Implementing a real-time data pipeline to aggregate and verify shelter capacity and entry requirements.
+  goals: Build a single, trusted place for up-to-date shelter capacity and service info that works well on low-bandwidth devices.
+  role: Product owner and full-stack developer focused on data ingestion, API design, and mobile-first UX.
+  problem: People experiencing homelessness often receive outdated or fragmented information, leading to missed services and wasted travel time.
+  process: Interviewed stakeholders, mapped data sources, designed a normalized schema, and built a prototype with a simple search and filtering flow.
+  outcome: Delivered a working prototype with live data stubs; next steps include integrating verified partner feeds and piloting with local agencies.
+  takeaways:
+    - Stakeholder alignment is critical when data ownership is distributed.
+    - Reliability matters more than feature depth for high-need services.
+  urls:
+    - label: Project brief
+      url: "#"
+    - label: GitHub
+      url: "#"
+  image: /assets/images/projects/community-compass.svg
+
 - name: Bowling Tracker App
   stack: React + Node.js + Computer Vision
   summary: A high-performance tracking app for the bowling community, featuring automated data entry and conversational analytics.
-  highlights:
-    - AI-powered score scanning to extract frame data directly from photos.
-    - Interactive AI chat interface for natural language performance queries.
+  goals: Remove manual score entry and provide bowlers with fast, visual performance insights.
+  role: Lead developer responsible for the CV pipeline, API design, and analytics UI.
+  problem: Bowlers track stats inconsistently, and manual entry slows adoption for casual leagues.
+  process: Built a camera capture flow, trained a lightweight OCR pipeline, and designed a stats dashboard for session summaries.
+  outcome: Achieved fast score entry on test devices; next steps include league integrations and a premium analytics tier.
+  takeaways:
+    - Automation only helps if the fallback manual flow is equally smooth.
+    - Real-world lighting is the biggest challenge for CV accuracy.
+  urls:
+    - label: Live demo
+      url: "#"
+    - label: GitHub
+      url: "#"
+  image: /assets/images/projects/bowling-tracker.svg
 
 - name: Guess That Bit
   stack: JavaScript + Web Audio
   summary: A game where players guess video clips from short audio snippets, built to maximize replay-ability and social sharing.
-  highlights:
-    - Logic for random clip selection, timers, and streak-based scoring.
-    - Engagement loop tuned for low-friction onboarding and fast rounds.
+  goals: Create a quick, replayable web game that encourages friendly competition.
+  role: Designer and engineer for the game logic, scoring, and engagement loop.
+  problem: Most music-guessing games feel slow and lack social hooks for retention.
+  process: Implemented a timed round system, built random clip selection, and tuned scoring to reward streaks.
+  outcome: Playtests showed strong retention; next steps include a weekly leaderboard and user-created packs.
+  takeaways:
+    - Short rounds drive higher completion rates.
+    - Clear scoring feedback keeps players engaged.
+  urls:
+    - label: Live demo
+      url: "#"
+    - label: GitHub
+      url: "#"
+  image: /assets/images/projects/guess-that-bit.svg
 
 - name: Propper AI - DocGen
   stack: Node.js + Salesforce + AI
   summary: Developing an intelligent document generation engine that integrates with Salesforce to automate complex agreement workflows.
-  highlights:
-    - Leveraging AI to analyze document structures and map Salesforce data to dynamic templates.
-    - Streamlining the end-to-end agreement lifecycle from data collection to execution.
+  goals: Reduce manual document prep time and standardize agreement templates across teams.
+  role: Backend engineer focused on data mapping, template logic, and Salesforce integration.
+  problem: Teams spend too much time assembling contracts and often copy outdated templates.
+  process: Built a template rules engine, mapped CRM data to dynamic fields, and implemented validation checks.
+  outcome: Automated core templates and reduced prep time in pilot tests; next steps include audit trails and role-based access.
+  takeaways:
+    - Clear template governance prevents content drift.
+    - CRM data quality directly impacts automation success.
+  urls:
+    - label: Case study
+      url: "#"
+    - label: GitHub
+      url: "#"
+  image: /assets/images/projects/propper-docgen.svg
 
 - name: Joze AI - AI Mediator
   stack: Next.js + LLMs
   summary: Built a next-generation AI mediation platform designed to facilitate neutral, structured resolutions for interpersonal or professional disputes.
-  highlights:
-    - [Placeholder for Joze AI technical detail]
-    - [Placeholder for Joze AI outcome/feature]
+  goals: Provide a safe, structured path for users to resolve conflicts with clear summaries and next steps.
+  role: Frontend lead and prompt designer responsible for user flow, summaries, and evaluation criteria.
+  problem: Mediation services are expensive and not accessible for many low-stakes disputes.
+  process: Designed a guided intake flow, created structured prompts, and built a prototype with consent and privacy checks.
+  outcome: Prototype delivered with strong usability feedback; next steps include human-in-the-loop review and policy coverage.
+  takeaways:
+    - Structured input improves response quality for LLM-based tools.
+    - Privacy expectations must be explicit at every step.
+  urls:
+    - label: Product page
+      url: "#"
+    - label: GitHub
+      url: "#"
+  image: /assets/images/projects/joze-mediator.svg
 
 - name: Fantasy Football Predictions App
-  stack: [Stack TBD]
+  stack: Stack TBD
   summary: A data-driven application providing projections and strategic insights for fantasy football managers.
-  highlights:
-    - [Placeholder for Fantasy Football feature]
-    - [Placeholder for Fantasy Football data source]
+  goals: Deliver weekly, explainable projections that help users make roster decisions quickly.
+  role: Data engineer and product designer responsible for data ingestion and projection views.
+  problem: Many prediction tools feel opaque and fail to show why a projection was made.
+  process: Built a stats pipeline, defined feature weights, and created a comparison dashboard for lineup decisions.
+  outcome: Prototype completed with sample data; next steps include model tuning and mobile optimization.
+  takeaways:
+    - Explainability builds trust in predictive products.
+    - Users value speed and clarity over dense charts.
+  urls:
+    - label: Project brief
+      url: "#"
+    - label: GitHub
+      url: "#"
+  image: /assets/images/projects/fantasy-football.svg

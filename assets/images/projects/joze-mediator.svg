@@ -1,0 +1,15 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#grad)"/>
+  <rect x="80" y="90" width="1040" height="520" rx="36" fill="#ffffff" opacity="0.14"/>
+  <circle cx="320" cy="300" r="90" fill="#22c55e" opacity="0.85"/>
+  <circle cx="520" cy="300" r="90" fill="#f97316" opacity="0.85"/>
+  <rect x="380" y="420" width="260" height="40" rx="20" fill="#ffffff" opacity="0.75"/>
+  <text x="120" y="520" fill="#ffffff" font-family="DM Sans, Arial, sans-serif" font-size="48" font-weight="600">Joze AI - Mediator</text>
+  <text x="120" y="570" fill="#ccfbf1" font-family="Work Sans, Arial, sans-serif" font-size="24">Structured conflict resolution</text>
+</svg>
