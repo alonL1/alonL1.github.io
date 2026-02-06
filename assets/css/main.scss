@@ -271,7 +271,7 @@ a {
 }
 
 .project-expanded {
-  display: grid;
+  display: none;
   gap: 16px;
   padding-top: 4px;
 }
@@ -279,6 +279,10 @@ a {
 .project-details {
   display: grid;
   gap: 12px;
+}
+
+.project-card.is-open .project-expanded {
+  display: grid;
 }
 
 .detail-block h4 {
