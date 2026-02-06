@@ -28,7 +28,7 @@ title: Portfolio
     <p class="section-title">Projects</p>
     <div class="card-grid">
       {% for project in site.data.projects %}
-        {% include project-card.html project=project %}
+        {% include project-card.html project=project index=forloop.index %}
       {% endfor %}
     </div>
   </div>
