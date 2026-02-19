@@ -10,10 +10,8 @@
     - Stakeholder alignment is critical when data ownership is distributed.
     - Reliability matters more than feature depth for high-need services.
   urls:
-    - label: Project brief
-      url: "#"
     - label: GitHub
-      url: "#"
+      url: "https://github.com/AnantDH/INFO490-EmeraldWay"
   image: /assets/images/projects/community-compass.svg
 
 - name: Bowling Tracker App
@@ -29,9 +27,9 @@
     - Real-world lighting is the biggest challenge for CV accuracy.
   urls:
     - label: Live demo
-      url: "#"
+      url: "https://bowling-tracker-six.vercel.app/"
     - label: GitHub
-      url: "#"
+      url: "https://github.com/alonL1/bowling-tracker"
   image: /assets/images/projects/bowling-tracker.svg
 
 - name: Guess That Bit
@@ -47,9 +45,9 @@
     - Clear scoring feedback keeps players engaged.
   urls:
     - label: Live demo
-      url: "#"
+      url: "https://guessthatbit.com/"
     - label: GitHub
-      url: "#"
+      url: "https://github.com/guyco3/key-and-peele-game"
   image: /assets/images/projects/guess-that-bit.svg
 
 - name: Propper AI - DocGen
@@ -64,10 +62,8 @@
     - Clear template governance prevents content drift.
     - CRM data quality directly impacts automation success.
   urls:
-    - label: Case study
-      url: "#"
-    - label: GitHub
-      url: "#"
+    - label: Company Website
+      url: "https://propper.ai/"
   image: /assets/images/projects/propper-docgen.svg
 
 - name: Joze AI - AI Mediator
@@ -82,14 +78,14 @@
     - Structured input improves response quality for LLM-based tools.
     - Privacy expectations must be explicit at every step.
   urls:
-    - label: Product page
-      url: "#"
-    - label: GitHub
-      url: "#"
+    - label: Company Website
+      url: "https://joze.ai/"
+    - label: Product Page
+      url: "https://test.joze.ai/"
   image: /assets/images/projects/joze-mediator.svg
 
 - name: Fantasy Football Predictions App
-  stack: Stack TBD
+  stack: Python + React
   summary: A data-driven application providing projections and strategic insights for fantasy football managers.
   goals: Deliver weekly, explainable projections that help users make roster decisions quickly.
   role: Data engineer and product designer responsible for data ingestion and projection views.
@@ -100,8 +96,6 @@
     - Explainability builds trust in predictive products.
     - Users value speed and clarity over dense charts.
   urls:
-    - label: Project brief
-      url: "#"
     - label: GitHub
-      url: "#"
+      url: "https://github.com/alonL1/fantasy-projections"
   image: /assets/images/projects/fantasy-football.svg
