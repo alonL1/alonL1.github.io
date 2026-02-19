@@ -1,7 +1,8 @@
 - label: LinkedIn
-  url: "#"
+  url: "https://www.linkedin.com/in/alonlevy04"
 - label: GitHub
-  url: "#"
+  url: "https://github.com/alonl1"
 - label: Download Resume
-  url: "#"
+  url: "/assets/docs/AlonLevy_Resume.pdf"
   button: true
+  internal: true

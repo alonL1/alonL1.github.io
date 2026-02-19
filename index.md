@@ -70,7 +70,11 @@ title: Portfolio
     <p class="section-title">Contact & Links</p>
     <div class="contact-grid">
       {% for item in site.data.socials %}
-        <a class="contact-card" href="{{ item.url }}">
+        <a
+          class="contact-card"
+          href="{% if item.internal %}{{ item.url | relative_url }}{% else %}{{ item.url }}{% endif %}"
+          {% if item.button %}download{% endif %}
+        >
           <span>{{ item.label }}</span>
           {% if item.button %}
             <span class="button">Download</span>
