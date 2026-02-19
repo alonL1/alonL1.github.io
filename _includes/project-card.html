@@ -10,7 +10,7 @@
       <h3>{{ include.project.name }}</h3>
       <p class="card-summary">{{ include.project.summary }}</p>
       {% if include.project.role %}
-      <p class="card-summary"><strong>My role:</strong> {{ include.project.role }}</p>
+      <p class="card-summary project-role-preview"><strong>My Role:</strong> {{ include.project.role }}</p>
       {% endif %}
     </div>
     <p class="chip">{{ include.project.stack }}</p>
@@ -35,7 +35,7 @@
         <p>{{ include.project.goals }}</p>
       </div>
       <div class="detail-block">
-        <h4>My role</h4>
+        <h4>My Role</h4>
         <p>{{ include.project.role }}</p>
       </div>
       <div class="detail-block">

@@ -285,6 +285,10 @@ a {
   display: grid;
 }
 
+.project-card.is-open .project-role-preview {
+  display: none;
+}
+
 .detail-block h4 {
   margin: 0 0 6px;
   font-size: 0.78rem;
