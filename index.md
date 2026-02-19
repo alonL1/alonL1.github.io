@@ -4,11 +4,14 @@ title: Portfolio
 ---
 
 <section class="section hero container reveal" id="top">
+  <div class="hero-photo-frame">
+    <img class="hero-photo" src="{{ "/assets/images/profile/portrait.jfif" | relative_url }}" alt="Portrait of Alon Levy">
+  </div>
   <div>
     <p class="lead">Hi, I’m Alon Levy, an Informatics student at the University of Washington focused on dependable back-end systems, thoughtful product architecture, and machine learning.</p>
     <div class="stagger" style="display:flex; gap:16px; flex-wrap:wrap; margin-top:20px;">
       <a class="button" href="#projects">View Projects</a>
-      <a class="button" style="background: var(--accent-2);" href="#contact">Contact Me</a>
+      <a class="button button-secondary" href="#contact">Contact Me</a>
     </div>
   </div>
 </section>
@@ -16,7 +19,7 @@ title: Portfolio
 <section class="section container reveal" id="about">
   <div>
     <p class="section-title">About Me</p>
-    <p>I am an Informatics student at the University of Washington with a focus on
+    <p class="about-copy">I am an Informatics student at the University of Washington with a focus on
       full-stack development and machine learning. My technical work currently
       revolves around building intelligent document generation systems for Propper AI. I also have personal projects in software developmet, machine learning, prompt engineering, database management.
     </p>

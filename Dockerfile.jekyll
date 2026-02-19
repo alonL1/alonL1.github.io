@@ -1,0 +1,4 @@
+FROM jekyll/jekyll:pages
+
+# Required for native gem extensions (e.g., bigdecimal) on Alpine/musl.
+RUN apk add --no-cache build-base

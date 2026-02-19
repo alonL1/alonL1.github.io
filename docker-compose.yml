@@ -1,0 +1,19 @@
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: Dockerfile.jekyll
+    command: >
+      bash -lc "bundle install && bundle exec jekyll serve --livereload --host 0.0.0.0 --port 4000 --force_polling --destination /tmp/jekyll-site"
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll
+      - jekyll_bundle:/usr/local/bundle
+    environment:
+      JEKYLL_ENV: development
+      BUNDLE_PATH: /usr/local/bundle
+
+volumes:
+  jekyll_bundle:
