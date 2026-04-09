@@ -211,7 +211,7 @@ a {
   display: grid;
   gap: 24px;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  align-items: start;
+  align-items: stretch;
 }
 
 .card {
@@ -222,13 +222,16 @@ a {
 }
 
 .project-card {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 16px;
   transition: border-color 0.2s ease;
 }
 
 .project-card:not(.is-open) {
   cursor: pointer;
+  height: clamp(410px, 44vw, 455px);
+  overflow: hidden;
 }
 
 .project-card.is-open {
@@ -270,11 +273,19 @@ a {
 .project-heading {
   display: grid;
   gap: 8px;
+  min-width: 0;
 }
 
 .card-header h3 {
   font-family: "DM Sans", "Segoe UI", sans-serif;
   margin: 0;
+}
+
+.project-card:not(.is-open) .card-header h3 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .chip {
@@ -292,10 +303,26 @@ a {
   margin-top: 0;
 }
 
+.project-card:not(.is-open) .project-summary-preview,
+.project-card:not(.is-open) .project-role-preview {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.project-card:not(.is-open) .project-summary-preview {
+  -webkit-line-clamp: 3;
+}
+
+.project-card:not(.is-open) .project-role-preview {
+  -webkit-line-clamp: 3;
+}
+
 .project-actions {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin-top: auto;
 }
 
 .project-toggle {
