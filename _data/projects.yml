@@ -1,41 +1,32 @@
 - name: Community Compass (UW Capstone)
-  stack: Data Science + Product Strategy
-  summary: A centralized platform designed to streamline communication between homelessness service providers and the community to optimize material and financial donations.
+  stack: Not sure yet
+  summary: >-
+    A centralized platform designed to help homelessness service providers improve communication and increase material and financial donations.
   goals: >-
-    The primary goal is to bridge the gap between service providers and the community by
-    creating a user-friendly platform that increases the volume and efficiency of
-    donations. By providing real-time transparency into the specific needs of shelters,
-    we aim to heighten the level of service provided to the 34,000+ individuals
-    experiencing homelessness in the King County area.
+    The primary goal is to bridge the gap between service providers and the community by creating a user-friendly platform that increases the volume and efficiency of donations. By providing real-time transparency into the specific needs of shelters, we aim to heighten the level of service provided to the 34,000+ individuals experiencing homelessness in the King County area.
   role: >-
-    As the Data Scientist for the team, I focused on analyzing donation behaviors and
-    architecting the data flow for resource tracking. I leveraged research from the
-    American Psychology Association and CMU to implement data-driven features, such as
-    donation tiers and detailed item priority levels, which are shown to increase
-    average donations by 20%.
+    As a Full-Stack Engineer and System Designer, I am responsible for architecting the platform's technical infrastructure and data management systems. Because our project is currently in the foundational phase, I have been deeply involved in initial stakeholder research and concept validation to ensure our system requirements align with the actual needs of local shelters.
   problem: >-
-    Homelessness service providers currently operate within fragmented systems where
-    data is often outdated or siloed across different organizations. This leads to
-    unpredictable donation flows and significant resource gaps. We identified an
-    opportunity to replace these inefficient communication methods with a real-time
-    "Compass" that guides donors to where their contributions are needed most.
+    Homelessness service providers currently operate within fragmented systems where data is often outdated or siloed across different organizations. This leads to unpredictable donation flows and significant resource gaps for shelters facing high demand. We identified an opportunity to replace these inefficient communication methods with a real-time "Compass" that guides donors to where their contributions are needed most.
   process: |-
-    Our team, Emerald Way, followed an iterative design and validation process:
-    - Stakeholder Research: We conducted deep dives and pitched versions of our concept to local organizations including Chief Seattle Club, Mary's Place, and Elizabeth Gregory Home.
-    - Feature Engineering: We designed a system centered on three core concepts: nonprofit-managed Wishlists, donor Search and Filter capabilities (by location and priority), and direct Messaging channels for coordination.
-    - Ethical Design: We prioritized "Values-First" development, ensuring the platform uses inclusive language and addresses privacy and safety concerns for marginalized communities.
+    Our team, Emerald Way, followed an iterative research and design process:
+    - Stakeholder Research: We pitched and validated our concepts with local organizations including Chief Seattle Club, Mary's Place, and Elizabeth Gregory Home.
+    - Evidence-Based Design: We integrated research from the American Psychology Association and CMU regarding how donation tiers and donor-recipient details can increase engagement by 20%.
+    - Core Concept Mapping: We designed a system centered on three core features: nonprofit-managed Wishlists, donor Search/Filter capabilities by location and priority, and direct Messaging channels for coordination.
   outcome: |-
-    We developed an MVP prototype that includes a main search page for donors, a nonprofit dashboard for managing incoming donations, and a messaging interface for drop-off coordination. Our next steps involve:
-    - Conducting another round of usability testing to ensure universal design.
-    - Developing the full application and adding admin tools for nonprofits.
-    - Integrating impact transparency features to show donors exactly how their contributions help.
+    We developed a high-fidelity MVP prototype that includes a main search page for donors, a nonprofit dashboard for managing wishlists, and a messaging interface for drop-off coordination. Our next steps involve:
+    - Conducting a second round of usability testing to ensure universal and intuitive design.
+    - Moving into full application development and building out administrative tools for nonprofits.
+    - Integrating impact transparency features to show donors the direct results of their contributions.
   takeaways:
-    - Data-Driven Engagement: Small structural changes, like offering tiered donation options, can have a massive impact on donor psychology and engagement.
-    - The Power of Details: Donors are significantly more likely to contribute when they have specific details about the needs of individuals or organizations.
-    - Systemic Collaboration: Solving fragmentation requires a solution that values collaboration over competition between service providers.
+    - "Psychological Engagement: Incorporating tiered donation suggestions and specific item details can significantly increase the impact of community support."
+    - "Values-First Development: A system for high-need services must prioritize acceptance, authenticity, and inclusive language from the earliest design stages."
+    - "Addressing Systemic Fragmentation: Building an effective coordination platform requires moving past siloed data to create a unified, reliable resource for the entire community."
   urls:
     - label: GitHub
       url: "https://github.com/AnantDH/INFO490-EmeraldWay"
+    - label: Demo Video
+      url: "https://www.youtube.com/watch?v=xFtxgH69nvo"
   image: /assets/images/projects/community-compass.svg
 
 - name: Bowling Tracker App
