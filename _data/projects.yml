@@ -1,14 +1,38 @@
 - name: Community Compass (UW Capstone)
-  stack: Not sure yet
-  summary: A centralized platform designed to provide the Seattle homeless community with real-time, accessible information on shelter availability and social services.
-  goals: Build a single, trusted place for up-to-date shelter capacity and service info that works well on low-bandwidth devices.
-  role: Product owner and full-stack developer focused on data ingestion, API design, and mobile-first UX.
-  problem: People experiencing homelessness often receive outdated or fragmented information, leading to missed services and wasted travel time.
-  process: Interviewed stakeholders, mapped data sources, designed a normalized schema, and built a prototype with a simple search and filtering flow.
-  outcome: Delivered a working prototype with live data stubs; next steps include integrating verified partner feeds and piloting with local agencies.
+  stack: Data Science + Product Strategy
+  summary: A centralized platform designed to streamline communication between homelessness service providers and the community to optimize material and financial donations.
+  goals: >-
+    The primary goal is to bridge the gap between service providers and the community by
+    creating a user-friendly platform that increases the volume and efficiency of
+    donations. By providing real-time transparency into the specific needs of shelters,
+    we aim to heighten the level of service provided to the 34,000+ individuals
+    experiencing homelessness in the King County area.
+  role: >-
+    As the Data Scientist for the team, I focused on analyzing donation behaviors and
+    architecting the data flow for resource tracking. I leveraged research from the
+    American Psychology Association and CMU to implement data-driven features, such as
+    donation tiers and detailed item priority levels, which are shown to increase
+    average donations by 20%.
+  problem: >-
+    Homelessness service providers currently operate within fragmented systems where
+    data is often outdated or siloed across different organizations. This leads to
+    unpredictable donation flows and significant resource gaps. We identified an
+    opportunity to replace these inefficient communication methods with a real-time
+    "Compass" that guides donors to where their contributions are needed most.
+  process: |-
+    Our team, Emerald Way, followed an iterative design and validation process:
+    - Stakeholder Research: We conducted deep dives and pitched versions of our concept to local organizations including Chief Seattle Club, Mary's Place, and Elizabeth Gregory Home.
+    - Feature Engineering: We designed a system centered on three core concepts: nonprofit-managed Wishlists, donor Search and Filter capabilities (by location and priority), and direct Messaging channels for coordination.
+    - Ethical Design: We prioritized "Values-First" development, ensuring the platform uses inclusive language and addresses privacy and safety concerns for marginalized communities.
+  outcome: |-
+    We developed an MVP prototype that includes a main search page for donors, a nonprofit dashboard for managing incoming donations, and a messaging interface for drop-off coordination. Our next steps involve:
+    - Conducting another round of usability testing to ensure universal design.
+    - Developing the full application and adding admin tools for nonprofits.
+    - Integrating impact transparency features to show donors exactly how their contributions help.
   takeaways:
-    - Stakeholder alignment is critical when data ownership is distributed.
-    - Reliability matters more than feature depth for high-need services.
+    - Data-Driven Engagement: Small structural changes, like offering tiered donation options, can have a massive impact on donor psychology and engagement.
+    - The Power of Details: Donors are significantly more likely to contribute when they have specific details about the needs of individuals or organizations.
+    - Systemic Collaboration: Solving fragmentation requires a solution that values collaboration over competition between service providers.
   urls:
     - label: GitHub
       url: "https://github.com/AnantDH/INFO490-EmeraldWay"
