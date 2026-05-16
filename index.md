@@ -5,7 +5,7 @@ title: Portfolio
 
 <section class="section hero container reveal" id="top">
   <div class="hero-photo-frame">
-    <img class="hero-photo" src="{{ "/assets/images/profile/portrait.jfif" | relative_url }}" alt="Portrait of Alon Levy">
+    <img class="hero-photo" src="{{ "/assets/images/profile/portrait.png" | relative_url }}" alt="Portrait of Alon Levy">
   </div>
   <div>
     <p class="lead">Hi, I’m Alon Levy, an Informatics student at the University of Washington focused on dependable back-end systems, thoughtful product architecture, and machine learning.</p>
