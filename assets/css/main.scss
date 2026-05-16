@@ -245,6 +245,7 @@ a {
   border: 2px solid var(--border-strong);
   background: #fff;
   height: 180px;
+  flex-shrink: 0;
 }
 
 .project-visual img {
@@ -279,6 +280,8 @@ a {
 .card-header h3 {
   font-family: "DM Sans", "Segoe UI", sans-serif;
   margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.3;
 }
 
 .project-card:not(.is-open) .card-header h3 {
@@ -286,6 +289,7 @@ a {
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  min-height: calc(1.15rem * 1.3 * 2);
 }
 
 .chip {
@@ -301,6 +305,8 @@ a {
 .card-summary {
   color: var(--muted);
   margin-top: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
 
 .project-card:not(.is-open) .project-summary-preview,
@@ -312,10 +318,12 @@ a {
 
 .project-card:not(.is-open) .project-summary-preview {
   -webkit-line-clamp: 3;
+  min-height: calc(0.95rem * 1.4 * 3);
 }
 
 .project-card:not(.is-open) .project-role-preview {
   -webkit-line-clamp: 3;
+  min-height: calc(0.95rem * 1.4 * 3);
 }
 
 .project-actions {

@@ -27,7 +27,7 @@
       url: "https://github.com/AnantDH/INFO490-EmeraldWay"
     - label: Demo Video
       url: "https://www.youtube.com/watch?v=xFtxgH69nvo"
-  image: /assets/images/projects/community-compass.svg
+  image: assets/images/projects/commcompass_logo.webp
 
 - name: Bowling Tracker App
   stack: React + Node.js + Computer Vision
@@ -45,7 +45,7 @@
       url: "https://bowling-tracker-six.vercel.app/"
     - label: GitHub
       url: "https://github.com/alonL1/bowling-tracker"
-  image: /assets/images/projects/bowling-tracker.svg
+  image: /assets/images/projects/pinpoint.png
 
 - name: Guess That Bit
   stack: JavaScript + Web Audio
@@ -63,7 +63,7 @@
       url: "https://guessthatbit.com/"
     - label: GitHub
       url: "https://github.com/guyco3/key-and-peele-game"
-  image: /assets/images/projects/guess-that-bit.svg
+  image: /assets/images/projects/guess-that-bit.png
 
 - name: Propper AI - DocGen
   stack: Node.js + Salesforce + AI
@@ -79,7 +79,7 @@
   urls:
     - label: Company Website
       url: "https://propper.ai/"
-  image: /assets/images/projects/propper-docgen.svg
+  image: assets/images/projects/propper.png
 
 - name: Joze AI - AI Mediator
   stack: Next.js + LLMs
@@ -97,7 +97,7 @@
       url: "https://joze.ai/"
     - label: Product Page
       url: "https://test.joze.ai/"
-  image: /assets/images/projects/joze-mediator.svg
+  image: /assets/images/projects/joze5.png
 
 - name: Fantasy Football Predictions App
   stack: Python + React
@@ -113,4 +113,4 @@
   urls:
     - label: GitHub
       url: "https://github.com/alonL1/fantasy-projections"
-  image: /assets/images/projects/fantasy-football.svg
+  image: /assets/images/projects/football.jpg
