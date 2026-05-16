@@ -2,6 +2,10 @@
   url: "https://www.linkedin.com/in/alonlevy04"
 - label: GitHub
   url: "https://github.com/alonl1"
+- label: View Resume
+  url: "/resume/"
+  internal: true
+  same_tab: true
 - label: Download Resume
   url: "/assets/docs/AlonLevy_Resume.pdf"
   button: true

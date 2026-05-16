@@ -64,7 +64,10 @@ title: Portfolio
 <section class="section container reveal" id="goals">
   <div>
     <p class="section-title">Future Goals</p>
-    <p class="lead">I’m looking forward to my Capstone project in <strong>Spring 2026</strong> and continuing to deepen my software engineering skills. Long term, I’m excited to explore roles where I can leverage both technical and soft skills to build reliable, scalable, user-centered systems.</p>
+    <p class="lead">I’m looking forward to completing and presenting my Capstone project in <strong>June 2026</strong>, and truly implementing it with the help of non-profit organizations.
+    I also look forward to getting more users for my bowling tracking app. As its now live on the appstore.
+    And I will continue to deepen my software engineering skills.
+    Long term, I’m excited to explore roles where I can leverage both technical and soft skills to build reliable, scalable, user-centered systems.</p>
   </div>
 </section>
 
@@ -76,6 +79,7 @@ title: Portfolio
         <a
           class="contact-card"
           href="{% if item.internal %}{{ item.url | relative_url }}{% else %}{{ item.url }}{% endif %}"
+          {% unless item.same_tab %}target="_blank" rel="noopener noreferrer"{% endunless %}
           {% if item.button %}download{% endif %}
         >
           <span>{{ item.label }}</span>

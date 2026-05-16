@@ -1,7 +1,9 @@
 - name: Community Compass (UW Capstone)
-  stack: Not sure yet
+  stack: React + Supabase SQL
   summary: >-
     A centralized platform designed to help homelessness service providers improve communication and increase material and financial donations.
+  short_summary: Centralized platform helping shelters coordinate community donations.
+  short_role: Full-Stack Engineer architecting the platform and validating with shelters.
   goals: >-
     The primary goal is to bridge the gap between service providers and the community by creating a user-friendly platform that increases the volume and efficiency of donations. By providing real-time transparency into the specific needs of shelters, we aim to heighten the level of service provided to the 34,000+ individuals experiencing homelessness in the King County area.
   role: >-
@@ -32,6 +34,8 @@
 - name: Bowling Tracker App
   stack: React + Node.js + Computer Vision
   summary: A high-performance tracking app for the bowling community, featuring automated data entry and conversational analytics.
+  short_summary: Bowling tracker with auto score entry and performance analytics.
+  short_role: Lead developer on the CV pipeline, API, and analytics UI.
   goals: Remove manual score entry and provide bowlers with fast, visual performance insights.
   role: Lead developer responsible for the CV pipeline, API design, and analytics UI.
   problem: Bowlers track stats inconsistently, and manual entry slows adoption for casual leagues.
@@ -50,6 +54,8 @@
 - name: Guess That Bit
   stack: JavaScript + Web Audio
   summary: A game where players guess video clips from short audio snippets, built to maximize replay-ability and social sharing.
+  short_summary: Web game where players guess video clips from short audio snippets.
+  short_role: Built the game logic, scoring, and engagement loop.
   goals: Create a quick, replayable web game that encourages friendly competition.
   role: Designer and engineer for the game logic, scoring, and engagement loop.
   problem: Most music-guessing games feel slow and lack social hooks for retention.
@@ -68,6 +74,8 @@
 - name: Propper AI - DocGen
   stack: Node.js + Salesforce + AI
   summary: Developing an intelligent document generation engine that integrates with Salesforce to automate complex agreement workflows.
+  short_summary: Doc generation engine integrated with Salesforce to automate agreements.
+  short_role: Backend engineer on templates and Salesforce integration.
   goals: Reduce manual document prep time and standardize agreement templates across teams.
   role: Backend engineer focused on data mapping, template logic, and Salesforce integration.
   problem: Teams spend too much time assembling contracts and often copy outdated templates.
@@ -84,6 +92,8 @@
 - name: Joze AI - AI Mediator
   stack: Next.js + LLMs
   summary: Built a next-generation AI mediation platform designed to facilitate neutral, structured resolutions for interpersonal or professional disputes.
+  short_summary: AI mediation platform for neutral, structured dispute resolutions.
+  short_role: Frontend lead and prompt designer on user flow and summaries.
   goals: Provide a safe, structured path for users to resolve conflicts with clear summaries and next steps.
   role: Frontend lead and prompt designer responsible for user flow, summaries, and evaluation criteria.
   problem: Mediation services are expensive and not accessible for many low-stakes disputes.
@@ -102,6 +112,8 @@
 - name: Fantasy Football Predictions App
   stack: Python + React
   summary: A data-driven application providing projections and strategic insights for fantasy football managers.
+  short_summary: Weekly projections and insights for fantasy football managers.
+  short_role: Data engineer and designer on ingestion and projection views.
   goals: Deliver weekly, explainable projections that help users make roster decisions quickly.
   role: Data engineer and product designer responsible for data ingestion and projection views.
   problem: Many prediction tools feel opaque and fail to show why a projection was made.
